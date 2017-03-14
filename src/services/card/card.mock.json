@@ -1,0 +1,161 @@
+{
+  "allCards": [
+    {
+      "value": 2,
+      "symbol": "hearts"
+    },{
+      "value": 3,
+      "symbol": "hearts"
+    },{
+      "value": 4,
+      "symbol": "hearts"
+    },{
+      "value": 5,
+      "symbol": "hearts"
+    },{
+      "value": 6,
+      "symbol": "hearts"
+    },{
+      "value": 7,
+      "symbol": "hearts"
+    },{
+      "value": 8,
+      "symbol": "hearts"
+    },{
+      "value": 9,
+      "symbol": "hearts"
+    },{
+      "value": 10,
+      "symbol": "hearts"
+    },{
+      "value": 11,
+      "symbol": "hearts"
+    },{
+      "value": 12,
+      "symbol": "hearts"
+    },{
+      "value": 13,
+      "symbol": "hearts"
+    },{
+      "value": 14,
+      "symbol": "hearts"
+    },{
+      "value": 2,
+      "symbol": "diamonds"
+    },{
+      "value": 3,
+      "symbol": "diamonds"
+    },{
+      "value": 4,
+      "symbol": "diamonds"
+    },{
+      "value": 5,
+      "symbol": "diamonds"
+    },{
+      "value": 6,
+      "symbol": "diamonds"
+    },{
+      "value": 7,
+      "symbol": "diamonds"
+    },{
+      "value": 8,
+      "symbol": "diamonds"
+    },{
+      "value": 9,
+      "symbol": "diamonds"
+    },{
+      "value": 10,
+      "symbol": "diamonds"
+    },{
+      "value": 11,
+      "symbol": "diamonds"
+    },{
+      "value": 12,
+      "symbol": "diamonds"
+    },{
+      "value": 13,
+      "symbol": "diamonds"
+    },{
+      "value": 14,
+      "symbol": "diamonds"
+    },{
+      "value": 2,
+      "symbol": "spades"
+    },{
+      "value": 3,
+      "symbol": "spades"
+    },{
+      "value": 4,
+      "symbol": "spades"
+    },{
+      "value": 5,
+      "symbol": "spades"
+    },{
+      "value": 6,
+      "symbol": "spades"
+    },{
+      "value": 7,
+      "symbol": "spades"
+    },{
+      "value": 8,
+      "symbol": "spades"
+    },{
+      "value": 9,
+      "symbol": "spades"
+    },{
+      "value": 10,
+      "symbol": "spades"
+    },{
+      "value": 11,
+      "symbol": "spades"
+    },{
+      "value": 12,
+      "symbol": "spades"
+    },{
+      "value": 13,
+      "symbol": "spades"
+    },{
+      "value": 14,
+      "symbol": "spades"
+    },{
+      "value": 2,
+      "symbol": "clubs"
+    },{
+      "value": 3,
+      "symbol": "clubs"
+    },{
+      "value": 4,
+      "symbol": "clubs"
+    },{
+      "value": 5,
+      "symbol": "clubs"
+    },{
+      "value": 6,
+      "symbol": "clubs"
+    },{
+      "value": 7,
+      "symbol": "clubs"
+    },{
+      "value": 8,
+      "symbol": "clubs"
+    },{
+      "value": 9,
+      "symbol": "clubs"
+    },{
+      "value": 10,
+      "symbol": "clubs"
+    },{
+      "value": 11,
+      "symbol": "clubs"
+    },{
+      "value": 12,
+      "symbol": "clubs"
+    },{
+      "value": 13,
+      "symbol": "clubs"
+    },{
+      "value": 14,
+      "symbol": "clubs"
+    }
+  ]
+}

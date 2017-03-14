@@ -1,0 +1,397 @@
+{
+  "onePair": [
+    {
+      "input": [
+        {
+          "value": 2,
+          "symbol": "spades"
+        },
+        {
+          "value": 5,
+          "symbol": "hearts"
+        },
+        {
+          "value": 2,
+          "symbol": "clubs"
+        },
+        {
+          "value": 11,
+          "symbol": "spades"
+        },
+        {
+          "value": 12,
+          "symbol": "spades"
+        }
+      ],
+      "expected": {
+        "combinationId": 1,
+        "value": 2,
+        "kicker": [
+          12,
+          11,
+          5
+        ]
+      }
+    },
+    {
+      "input": [
+        {
+          "value": 12,
+          "symbol": "spades"
+        },
+        {
+          "value": 5,
+          "symbol": "hearts"
+        },
+        {
+          "value": 2,
+          "symbol": "clubs"
+        },
+        {
+          "value": 11,
+          "symbol": "spades"
+        },
+        {
+          "value": 12,
+          "symbol": "spades"
+        }
+      ],
+      "expected": {
+        "combinationId": 1,
+        "value": 12,
+        "kicker": [
+          11,
+          5,
+          2
+        ]
+      }
+    },
+    {
+      "input": [
+        {
+          "value": 12,
+          "symbol": "spades"
+        },
+        {
+          "value": 5,
+          "symbol": "hearts"
+        },
+        {
+          "value": 2,
+          "symbol": "clubs"
+        },
+        {
+          "value": 11,
+          "symbol": "spades"
+        },
+        {
+          "value": 3,
+          "symbol": "spades"
+        },
+        {
+          "value": 9,
+          "symbol": "spades"
+        },
+        {
+          "value": 12,
+          "symbol": "spades"
+        }
+      ],
+      "expected": {
+        "combinationId": 1,
+        "value": 12,
+        "kicker": [
+          11,
+          9,
+          5
+        ]
+      }
+    }
+  ],
+  "twoPairs": [
+    {
+      "input": [
+        {
+          "value": 12,
+          "symbol": "spades"
+        },
+        {
+          "value": 5,
+          "symbol": "hearts"
+        },
+        {
+          "value": 9,
+          "symbol": "clubs"
+        },
+        {
+          "value": 11,
+          "symbol": "spades"
+        },
+        {
+          "value": 3,
+          "symbol": "spades"
+        },
+        {
+          "value": 9,
+          "symbol": "clubs"
+        },
+        {
+          "value": 12,
+          "symbol": "spades"
+        }
+      ],
+      "expected": {
+        "combinationId": 2,
+        "highPair": 12,
+        "lowPair": 9,
+        "kicker": [
+          11
+        ]
+      }
+    }
+  ],
+  "threeOfKind": [
+    {
+      "input": [
+        {
+          "value": 12,
+          "symbol": "spades"
+        },
+        {
+          "value": 5,
+          "symbol": "hearts"
+        },
+        {
+          "value": 3,
+          "symbol": "clubs"
+        },
+        {
+          "value": 11,
+          "symbol": "spades"
+        },
+        {
+          "value": 3,
+          "symbol": "clubs"
+        },
+        {
+          "value": 9,
+          "symbol": "spades"
+        },
+        {
+          "value": 3,
+          "symbol": "spades"
+        }
+      ],
+      "expected": {
+        "combinationId": 3,
+        "value": 3,
+        "kicker": [
+          12,
+          11
+        ]
+      }
+    }
+  ],
+  "fourOfKind": [
+    {
+      "input": [
+        {
+          "value": 3,
+          "symbol": "spades"
+        },
+        {
+          "value": 7,
+          "symbol": "spades"
+        },
+        {
+          "value": 3,
+          "symbol": "hearts"
+        },
+        {
+          "value": 2,
+          "symbol": "clubs"
+        },
+        {
+          "value": 3,
+          "symbol": "spades"
+        },
+        {
+          "value": 3,
+          "symbol": "spades"
+        }
+      ],
+      "expected": {
+        "combinationId": 7,
+        "value": 3,
+        "kicker": [
+          7
+        ]
+      }
+    }
+  ],
+  "straight": [
+    {
+      "input": [
+        {
+          "value": 2,
+          "symbol": "spades"
+        },
+        {
+          "value": 3,
+          "symbol": "hearts"
+        },
+        {
+          "value": 4,
+          "symbol": "spades"
+        },
+        {
+          "value": 12,
+          "symbol": "spades"
+        },
+        {
+          "value": 6,
+          "symbol": "hearts"
+        },
+        {
+          "value": 5,
+          "symbol": "spades"
+        }
+      ],
+      "expected": {
+        "combinationId": 4,
+        "value": 6
+      }
+    }
+  ],
+  "color": [
+    {
+      "input": [
+        {
+          "value": 2,
+          "symbol": "spades"
+        },
+        {
+          "value": 5,
+          "symbol": "spades"
+        },
+        {
+          "value": 7,
+          "symbol": "spades"
+        },
+        {
+          "value": 11,
+          "symbol": "spades"
+        },
+        {
+          "value": 11,
+          "symbol": "hearts"
+        },
+        {
+          "value": 12,
+          "symbol": "spades"
+        }
+      ],
+      "expected": {
+        "combinationId": 5,
+        "value": 12,
+        "color": "spades"
+      }
+    }
+  ],
+  "fullHouse": [
+    {
+      "input": [
+        {
+          "value": 12,
+          "symbol": "spades"
+        },
+        {
+          "value": 5,
+          "symbol": "hearts"
+        },
+        {
+          "value": 3,
+          "symbol": "clubs"
+        },
+        {
+          "value": 12,
+          "symbol": "spades"
+        },
+        {
+          "value": 3,
+          "symbol": "spades"
+        },
+        {
+          "value": 9,
+          "symbol": "spades"
+        },
+        {
+          "value": 3,
+          "symbol": "spades"
+        }
+      ],
+      "expected": {
+        "combinationId": 6,
+        "threeOfKind": 3,
+        "pair": 12
+      }
+    }
+  ],
+  "poker": [
+    {
+      "input": [
+        {
+          "value": 9,
+          "symbol": "spades"
+        },
+        {
+          "value": 10,
+          "symbol": "spades"
+        },
+        {
+          "value": 7,
+          "symbol": "spades"
+        },
+        {
+          "value": 13,
+          "symbol": "spades"
+        },
+        {
+          "value": 11,
+          "symbol": "hearts"
+        },
+        {
+          "value": 12,
+          "symbol": "spades"
+        }
+      ],
+      "expected": {
+        "combinationId": 8,
+        "value": 13,
+        "color": "spades"
+      }
+    }
+  ],
+  "highCard": [
+    {
+      "value": 9,
+      "symbol": "diamonds"
+    },
+    {
+      "value": 3,
+      "symbol": "spades"
+    },
+    {
+      "value": 11,
+      "symbol": "spades"
+    },
+    {
+      "value": 12,
+      "symbol": "spades"
+    },
+    {
+      "value": 13,
+      "symbol": "spades"
+    }
+  ]
+}
